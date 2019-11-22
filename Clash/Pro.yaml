@@ -274,7 +274,7 @@ Rule:
 - DOMAIN,dl.google.com,DIRECT
 - DOMAIN,mtalk.google.com,DIRECT
 
-# Internet Service Provider Hijacking 运营商劫持
+# Internet Service Providers Hijacking 运营商劫持
 - DOMAIN-SUFFIX,17gouwuba.com,Hijacking
 - DOMAIN-SUFFIX,186078.com,Hijacking
 - DOMAIN-SUFFIX,189zj.cn,Hijacking
@@ -327,6 +327,8 @@ Rule:
 - DOMAIN-SUFFIX,ishop789.com,Hijacking
 - DOMAIN-SUFFIX,jdkic.com,Hijacking
 - DOMAIN-SUFFIX,jiubuhua.com,Hijacking
+- DOMAIN-SUFFIX,jsncke.com,Hijacking
+- DOMAIN-SUFFIX,junkucm.com,Hijacking
 - DOMAIN-SUFFIX,jwg365.cn,Hijacking
 - DOMAIN-SUFFIX,kawo77.com,Hijacking
 - DOMAIN-SUFFIX,kualianyingxiao.cn,Hijacking
@@ -368,8 +370,11 @@ Rule:
 - DOMAIN-SUFFIX,tuipenguin.com,Hijacking
 - DOMAIN-SUFFIX,tuitiger.com,Hijacking
 - DOMAIN-SUFFIX,websd8.com,Hijacking
+- DOMAIN-SUFFIX,wsgblw.com,Hijacking
 - DOMAIN-SUFFIX,wx16999.com,Hijacking
+- DOMAIN-SUFFIX,xchmai.com,Hijacking
 - DOMAIN-SUFFIX,xiaohuau.xyz,Hijacking
+- DOMAIN-SUFFIX,ygyzx.cn,Hijacking
 - DOMAIN-SUFFIX,yinmong.com,Hijacking
 - DOMAIN-SUFFIX,yitaopt.com,Hijacking
 - DOMAIN-SUFFIX,yjqiqi.com,Hijacking
@@ -380,17 +385,25 @@ Rule:
 - DOMAIN-SUFFIX,zunmi.cn,Hijacking
 - DOMAIN-SUFFIX,zzd6.com,Hijacking
 
-# Infamous 声名狼藉
+# Malware 恶意网站
+# > 快压
+# https://zhuanlan.zhihu.com/p/39534279
 - DOMAIN-SUFFIX,kuaizip.com,Hijacking
+# > MacKeeper
+# https://www.lizhi.io/blog/40002904
 - DOMAIN-SUFFIX,mackeeper.com,Hijacking
-# > Adobe 奥多比
+- DOMAIN-SUFFIX,zryydi.com,Hijacking
+# > Adobe Flash China Special Edition
+# https://www.zhihu.com/question/281163698/answer/441388130
 - DOMAIN-SUFFIX,flash.cn,Hijacking
 - DOMAIN,geo2.adobe.com,Hijacking
-# > CJ Marketing 思杰马克丁软件
+# > C&J Marketing 思杰马克丁软件
+# https://www.zhihu.com/question/46746200
 - DOMAIN-SUFFIX,4009997658.com,Hijacking
 - DOMAIN-SUFFIX,abbyychina.com,Hijacking
 - DOMAIN-SUFFIX,bartender.cc,Hijacking
 - DOMAIN-SUFFIX,betterzip.net,Hijacking
+- DOMAIN-SUFFIX,betterzipcn.com,Hijacking
 - DOMAIN-SUFFIX,beyondcompare.cc,Hijacking
 - DOMAIN-SUFFIX,bingdianhuanyuan.cn,Hijacking
 - DOMAIN-SUFFIX,chemdraw.com.cn,Hijacking
